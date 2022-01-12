@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Applying for the card - Swedbank</title>
+	<link rel="stylesheet" href="https://design.swedbankpay.com/v/7.1.0/styles/swedbankpay.css" />
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="topbar topbar-xl-wide" id="demo-topbar-1">
+		<button type="button" class="topbar-btn">
+			<i class="material-icons topbar-btn-icon" aria-hidden="true">menu</i>
+		</button><button type="button" class="topbar-close">
+			<i class="material-icons topbar-btn-icon" aria-hidden="true">close</i>
+	
+		</button>
+		<a class="topbar-logo" href="/">
+			<img src="img/swedbankpay-logo-v.svg" class="logotype-vertical logotype-md" />
+		</a>
+		<nav class="topbar-nav">
+			<div class="topbar-link-container">
+	
+				<a href="#" class="active">
+					<i class="material-icons" aria-hidden="true">home</i>
+					<span>Home</span>
+				</a>
+				<a href="#">
+					<i class="material-icons" aria-hidden="true">shopping_cart</i>
+					<span>Purchase history</span>
+				</a>
+				<a href="#">
+					<i class="material-icons" aria-hidden="true">settings</i>
+					<span>Settings</span>
+				</a>
+				<a class="topbar-link-right" href="#">
+					<i class="material-icons" aria-hidden="true">exit_to_app</i>
+					<span>Log out</span>
+				</a>
+			</div>
+		</nav>
+	</header>
+	<main class="page-content">
+		<div class="page-content__header mt-4">
+			<h1>Request sending form</h1>
+		</div>
+		<div class="page-content__form">
+			<form method="post">
+				<div class="steps">
+					<ol>
+						<li class="steps-ongoing" data-step-number="1">
+							<div class="steps-number">1</div>
+							<div class="steps-sub-title">Introduction</div>
+						</li>
+						<li data-step-number="2">
+							<div class="steps-number">2</div>
+						</li>
+						<li data-step-number="3">
+							<div class="steps-number">3</div>
+						</li>
+						<li data-step-number="4">
+							<div class="steps-number">4</div>
+						</li>
+						<li data-step-number="5">
+							<div class="steps-number">5</div>
+						</li>
+						<li data-step-number="6">
+							<div class="steps-number">6</div>
+						</li>
+						<li data-step-number="7">
+							<div class="steps-number">7</div>
+							<div class="steps-sub-title">Summary</div>
+						</li>
+					</ol>
+				</div>
+				<div class="form__introduction mb-4" data-step="1">
+					<h2>Welcome to Swedbank</h2>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta nam laborum praesentium quae voluptas, voluptatem repudiandae sed, distinctio, vitae ipsam accusantium ullam consectetur necessitatibus totam iusto sit quo placeat aliquid illo minima repellat repellendus id. Quaerat rem molestias magnam minima debitis quas ipsum, voluptas ratione repudiandae deserunt, voluptatem deleniti ipsa.</p>
+				</div>
+				<fieldset>
+					<fieldset class="mb-4" data-step="2">
+						<div class="radio-group">
+							<div class="row">
+								<div class="form-groupcol-12 col-sm-3">
+									<label>Your gender:*</label>
+								</div>
+								<div class="form-groupcol-12 col-sm-3 radio">
+									<input type="radio" id="male" name="gender" checked value="male">
+									<label for="male">Male</label>
+								</div>
+								<div class="form-groupcol-12 col-sm-3 radio">
+									<input type="radio" id="female" name="gender" value="female">
+									<label for="female">Female</label>
+								</div>
+								<div class="form-groupcol-12 col-sm-3 radio">
+									<input type="radio" id="female" name="gender" value="other">
+									<label for="female">Other</label>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+					<fieldset class="mb-4" data-step="3">
+						<div class="form-group">
+							<div class="row">
+								<div class="form-groupcol-12 col-sm-4">
+									Contact information:
+								</div>
+								<div class="form-groupcol-12 col-sm-4">
+									<label for="email">
+										Email:*
+									</label>
+									<div class="input-group">
+										<input type="email" class="form-control" name="email" id="email" placeholder="name@mail.com" />
+									</div>
+									<div class="help-block" data-error="The email address must be filled and must contain '@'"></div>
+								</div>
+								<div class="form-groupcol-12 col-sm-4">
+									<label for="phone">
+										Phone:
+									</label>
+									<input type="tel" class="form-control" name="phone" id="phone" placeholder="+46 701234567" />
+								</div>
+							</div>
+						</div>
+					</fieldset>
+					<fieldset class="mb-4" data-step="4">
+						<div class="form-group">
+							<div class="row">
+								<div class="form-groupcol-12 col-sm-4">
+									<label for="">Your citizenship:*</label>
+								</div>
+								<div class="form-groupcol-12 col-sm-8 radio">
+									<select class="form-control" name="citizenship"></select>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+					<fieldset class="checkbox-group mb-4" data-step="5">
+						<div class="row">
+							<div class="form-groupcol-12 col-sm-4">Employed status:*</div>
+							<div class="form-groupcol-12 col-sm-8">
+								<div class="checkbox">
+									<input type="checkbox" id="employed" name="status" value="emplyed" />
+									<label for="employed">Employed</label>
+								</div>
+								<div class="checkbox">
+									<input type="checkbox" id="unemployed" name="status" value="unemployed" />
+									<label for="unemployed">Unemployed</label>
+								</div>
+								<div class="checkbox">
+									<input type="checkbox" id="student" name="status" value="student" />
+									<label for="student">Student</label>
+								</div>
+								<div class="help-block col-12" data-error="Please choose at least one option."></div>
+							</div>
+						</div>
+					</fieldset>
+					<fieldset class="mb-4" data-step="6">
+						<div class="form-group">
+							<div class="row">
+								<div class="form-groupcol-12 col-sm-4">
+									<label for="cstRequest">
+										Define your request:*
+									</label>
+									<i class="material-icons mr-3" data-tooltip data-tooltip-position="top">
+										help_outline
+										<span class="tooltip">
+											Please describe your request detailed. 
+										</span>
+									</i>					
+								</div>
+								<div class="input-group has-error form-groupcol-12 col-sm-8">
+									<textarea id="cstRequest" type="textarea" class="form-control" name="cstRequest" placeholder="Your request"></textarea>
+									<div class="help-block col-sm-12" data-error="Please fill this field."></div>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+					<div class="form__summary" data-step="7">
+						<ul class="item-list">
+							<li>
+								<div>
+									<h3>Your gender</h3>
+									<small data-field='gender'></small>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h3>Your email</h3>
+									<small data-field='email'></small>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h3>Your phone</h3>
+									<small data-field='phone'></small>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h3>Your citizenship</h3>
+									<small data-field='citizenship'></small>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h3>Your employed status</h3>
+									<small data-field='status'></small>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h3>Your request</h3>
+									<small data-field='cstRequest'></small>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="d-flex justify-content-between mt-2 mb-4">
+						<button class="btn btn-secondary button-back" type="button">
+							<i class="material-icons" aria-hidden="true">arrow_back</i>
+							<span>Back</span>
+						</button><button class="btn btn-primary button-next" type="button">Next step</button>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</main>
+	<script src="https://design.swedbankpay.com/v/7.1.0/scripts/dg.js" global="true" autoload="true"></script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

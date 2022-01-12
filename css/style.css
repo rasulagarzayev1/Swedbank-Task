@@ -1,0 +1,58 @@
+body {
+  background-color: #FBF2EA;
+}
+
+label, p, h1, h2 {
+  color: #512B2B;
+}
+
+.page-content {
+  width: 80%;
+  margin: auto;
+}
+
+.page-content__header h1 {
+  color: #F35B1C;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.page-content__form {
+  background-color: #fff;
+}
+
+.page-content__form form {
+  width: 80%;
+  margin: auto;
+}
+
+.page-content__form form .steps {
+  background-color: #FDFAF7;
+}
+
+.page-content__form form div[data-step="1"] {
+  height: 150px;
+}
+
+.page-content__form form fieldset[data-step] {
+  display: none;
+  height: 150px;
+}
+
+.page-content__form form div[data-step="7"] {
+  display: none;
+}
+
+.page-content__form form div[data-step="1"] {
+  display: block;
+}
+
+.page-content__form form .button-back {
+  opacity: 0;
+}
+
+.page-content__form form .radio:not(:last-child) {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */

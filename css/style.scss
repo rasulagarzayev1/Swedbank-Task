@@ -1,0 +1,59 @@
+body {
+	background-color: #FBF2EA;
+}
+
+label, p, h1, h2{
+	color: #512B2B;
+}
+
+.page-content {
+	width: 80%;
+	margin: auto;
+
+	&__header {
+		h1 {
+			color: #F35B1C;
+    		font-size: 26px;
+			font-weight: bold;
+    		margin: 0;
+		}
+	}
+
+	&__form {
+		background-color: #fff;
+		form {
+			width: 80%;
+			margin: auto;
+
+			.steps {
+				background-color: #FDFAF7;
+			}
+			
+			div[data-step="1"] {
+				height: 150px;
+			}
+			
+			fieldset[data-step] {
+				display: none;
+				height: 150px;
+			}
+
+			div[data-step="7"] {
+				display: none;
+			}
+
+			div[data-step="1"] {
+				display: block;
+			}
+
+			.button-back {
+				opacity: 0;
+			}
+
+			.radio:not(:last-child) {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
